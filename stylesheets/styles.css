@@ -1,11 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
 
 body{
-  font-family: "Helvetica Neue", Helvetica, Arial;
   background-color: #f8f8f8;
+  height: 100%;
+}
+
+h1{
+  font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  font-weight: 300;
+  color:#eee;
+  background:#111;
+  text-align: center;
+  padding:5em 1em;
 }
 
 a{
@@ -15,16 +26,41 @@ a{
 li{
   display: inline;
   list-style: none;
+
 }
 
-.container{
-  display: block;
+.container {
+
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto; 
-  margin-top: 50px;
 
 }
 
-img {
+.elements {
  
+ display: inline;
+  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.elements img {
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -webkit-transition: all .9s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  height: 150px;
+  width: 200px;
+}
+
+.container img:hover{
+  opacity: .7;
+  -webkit-transition: all .9s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  
 }
