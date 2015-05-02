@@ -2,30 +2,88 @@
 <html>
 <head>
   <title>Pritesh's Portfolio Website</title>
-   <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Hey there, I'm <strong itemprop="givenName">Pritesh Sankhe</strong>
-    </h1>
-  </header>
-
-  <div class="container">
-    <div class="elements">
-    <img src="images/skim_grid_icon.png">
+  <div class="containet-fluid">
+    <div class="p-container-narrow">
+      <h1 class="p-title">Pritesh Sankhe</h1>
+      <u1 class="nav nav-pills">
+        <li class = "p-green-pill">
+          <a href="views/about.html">about</a>
+        </li>
+        <li class = "p-red-pill">
+          <a href="#">projects</a>
+        </li>
+        <li class="p-blue-pill dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">more</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="">Email</a>
+            </li>
+            <li>
+              <a href="">Twitter</a>
+            </li>
+            <li>
+              <a href="">Facebook</a>
+            </li>
+            <li>
+              <a href="">Github</a>
+            </li>
+            <li>
+              <a href="">Linkedin</a>
+            </li>
+            <li>
+              <a href="">Resume</a>
+            </li>
+          </ul>
+        </li>
+      </u1>
+      <hr>
+      <div data-js="main-content">
+        <h3>Android Apps</h3>
+        <div class="p-project-item clearfix">
+          <div class="p-project-image p-project-skim-image hidden-xs">
+          </div>
+          <div class = "p-project-blurb">
+            <a class="p-project-header p-project-skim" href="https://play.google.com/store/apps/details?id=co.skim.application">Skim - Flipboard for Adventures</a>
+            <p class="p-project-description"> Skim brings awesome curated adventures in your city to your phone every week. You can skim through our suggested adventures, ping you friends, meet and make memories!
+              Skim is like a Flipboard for Adventures! So you can just go out there and experience a life outside work.
+              Skim is available for 6 cities, Los Angeles, San Francisco, New York, London, Paris, Bangalore.</p>
+            </div>
+          </div>
+          <div class="p-project-item clearfix">
+          <div class="p-project-image p-project-shortr-image hidden-xs">
+          </div>
+          <div class = "p-project-blurb">
+            <a class="p-project-header p-project-shortr" href="http://getshortrapp.com/">Shortr - Tech Blogs, News, Tutorials in 50 words</a>
+            <p class="p-project-description"> Skim brings awesome curated adventures in your city to your phone every week. You can skim through our suggested adventures, ping you friends, meet and make memories!
+              Skim is like a Flipboard for Adventures! So you can just go out there and experience a life outside work.
+              Skim is only currently available for 4 cities, Los Angeles, San Francisco, New York and Bangalore. We're in the process of adding more cities in the near future.</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-project-item clearfix">
+          <div class="p-project-image p-project-bookoverflow-image hidden-xs">
+          </div>
+          <div class = "p-project-blurb">
+            <a class="p-project-header p-project-bookoverflow" href="http://www.thehindu.com/sci-tech/technology/techie-to-the-rescue/article4465874.ece">bookOverflow - Reminder for library books for IITGN students</a>
+            <p class="p-project-description"> I developed this app as an extension to my Data Mining course Project - "Library Books Recommendation System for students of IIT Gandhinagar".This app is hosted on the institution's local server and the students of IIT Gandhinagar use to view their current issues and get reminder's when the books are due.[<a href="https://github.com/droidx/bookOverflow">code</a>]
+            </p>
+            </div>
+          </div>
+          <h3>Other projects</h3>
+          <div class="p-project-image p-project-bookoverflow-image hidden-xs">
+          </div>
+          <div class = "p-project-blurb">
+            <a class="p-project-header p-project-bookoverflow" href="ieeexplore.ieee.org/iel7/6720232/67336882/06733745.pdf?arnumber=6733745">Smartphone controlled Robotic System as Assistive Technology</a>
+            <p class="p-project-description"> The smartphone is essentially mounted on an electric wheelchair. It takes input commands from the user by touch (uses the touchscreen) or the head-movements (uses the camera). Both this input commands are mapped to the speed and the direction of the motors. Additionally, a usability study was conducted where the prototype was validated by seven healthy participants.[<a href="PID2972907.pdf">pdf</a>]
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  <div class="elements">
-    <img src="images/lifetym_grid_icon.png">
-  </div>
-  <div class="elements">
-    <img src="images/touchb.jpg">
-  </div>
-  <div class="elements">
-    <img src="images/bookoverflow.png">
-  </div>
-  <div class="elements">
-    <img src="images/csn.jpg">
-  </div>
-</div>
-</body>
-</html>
+
+  </body>
+  </html>
