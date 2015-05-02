@@ -8,16 +8,20 @@ html, body{
 	display: block;
 }
 
-.container-fluid{
+body {
+	margin:0;
+}
+
+.container-fluid {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.p-container-narrow{
+.p-container-narrow {
 	max-width: 700px;
 	min-height: 500px;
-	margin:auto;
+	margin: auto;
 	display: block;
 	color: #423f37;
 	font-family: lucida sans, geneva, pt sans, helvetica neue, sans-serif;
@@ -213,4 +217,8 @@ hr {
   -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
   box-shadow: 0 6px 12px rgba(0,0,0,0.175);
   background-clip: padding-box;
+}
+
+div {
+	display: block;
 }
