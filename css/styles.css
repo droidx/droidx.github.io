@@ -215,6 +215,25 @@ h1, h2, h3 {
   border-radius: 5px;
 }
 
+.p-project-csn-image{
+  background: url(../images/csn.jpg);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.p-project-jarvis-image{
+  background: url(../images/ic_jarvis.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.p-project-btechproj-image{
+  background: url(../images/btechproj.png);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+emotion_classification
+
 .p-project-header{
   font-size: 18px;
 }
