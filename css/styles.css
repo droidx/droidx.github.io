@@ -200,35 +200,41 @@ h1, h2, h3 {
 
 .p-project-skim-image {
   background: url(../images/skim_grid_icon.png);
+  background-position: center center;
   border-radius: 5px;
 }
 
 .p-project-shortr-image{
-  background: url(../images/shortr_grid_icon.png);
+  background: url(../images/shortr.png);
+  background-position: center center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
 
 .p-project-bookoverflow-image{
   background: url(../images/bookoverflow.png);
+  background-position: center center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
 
 .p-project-csn-image{
   background: url(../images/csn.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
 
 .p-project-jarvis-image{
   background: url(../images/ic_jarvis.png);
+  background-position: center center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
 
 .p-project-btechproj-image{
   background: url(../images/btechproj.png);
+  background-position: center center;
   background-repeat: no-repeat;
   border-radius: 5px;
 }
